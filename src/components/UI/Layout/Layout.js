@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Toolbar from '../../Navigation/Toolbar/Toolbar';
+import styles from './Layout.module.css';
+import Hero from '../../Hero/Hero';
 
 class Layout extends Component {
     state = {
@@ -10,6 +12,10 @@ class Layout extends Component {
         return (
             <React.Fragment>
                 <Toolbar />
+                <Hero />
+                <main className={styles.Content}>
+                    {this.props.children}
+                </main>
             </React.Fragment>
         )
     }
