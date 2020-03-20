@@ -8,6 +8,10 @@ class Layout extends Component {
         showSideDrawer: false
     }
 
+    componentDidMount() {
+        console.log("hello")
+    };
+
     render() {
         return (
             <React.Fragment>

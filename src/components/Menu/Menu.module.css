@@ -1,0 +1,36 @@
+.Menu {
+    height: 55.5vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: column;
+    background-color: whitesmoke;
+}
+
+.Menu h1 {
+    display: inline;
+    padding-top: 25px;
+    margin: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 4px solid tomato;
+}
+
+.MenuCategory {
+    width: 50%;
+
+}
+
+.MenuCategory h3 {
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+}
+
+.MenuCategory ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 12px;
+}
