@@ -34,4 +34,10 @@
         background-color: white;
         border-bottom: 4px solid tomato;
     }
+
+    .active{
+        background-color: white;
+        /* border-bottom: 4px solid tomato; */
+    }
+
 }

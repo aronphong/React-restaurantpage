@@ -8,7 +8,7 @@ const toolbar = (props) => (
             The Breakfast Inn
         </div>
         <nav className={styles.DesktopOnly}>
-            <NavigationItems />
+            <NavigationItems clicked={props.clicked} menu={props.menu}/>
         </nav>
     </header>
 );
